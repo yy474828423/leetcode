@@ -26,8 +26,9 @@ class Solution:
 ```
 
 ## plan 1
-递归
-![permutation](./resourses/permutation.png)
+递归 本地详见下图
+
+![permutation](https://github.com/yy474828423/letcode/tree/master/problems/resourses/permutation.png)
 ```
 res = []
 l = len(nums)
