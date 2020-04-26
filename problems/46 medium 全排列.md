@@ -28,7 +28,10 @@ class Solution:
 ## plan 1
 递归 本地详见下图
 
-![permutation](https://pic.leetcode-cn.com/0bf18f9b86a2542d1f6aa8db6cc45475fce5aa329a07ca02a9357c2ead81eec1-image.png)
+![permutation](./resourses/permutation.PNG)
+
+https://pic.leetcode-cn.com/0bf18f9b86a2542d1f6aa8db6cc45475fce5aa329a07ca02a9357c2ead81eec1-image.png
+
 ```
 res = []
 l = len(nums)
@@ -46,4 +49,3 @@ return res # return res.append([nums[i]]+j) 会发生神奇的事情哦
 内存消耗 :13.7 MB, 在所有 Python3 提交中击败了5.41%的用户
 
 ## plan 2
-
