@@ -109,7 +109,8 @@ return True
 内存消耗 :13.6 MB, 在所有 Python3 提交中击败了10.00%的用户
 
 ## plan 5
-线性相关 线性：加法、乘法
+线性相关 线性：满足加法、乘法 
+从非重复个数来做最终判断
 ```
 s = str.split()
 if len(s)!=len(pattern):
