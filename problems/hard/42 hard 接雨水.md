@@ -4,7 +4,7 @@
 给定 n 个非负整数表示每个宽度为 1 的柱子的高度图，计算按此排列的柱子，下雨之后能接多少雨水。
 
 ## 示例:
-![permutation](./resourses/rainwatertrap.PNG)
+![permutation](../resourses/rainwatertrap.PNG)
 
 输入  [0,1,0,2,1,0,1,3,2,1,2,1] 表示的高度图，在这种情况下，可以接 6 个单位的雨水（蓝色部分表示雨水）。
 
@@ -39,7 +39,7 @@ return ans
 
 ## plan 2
 动态计算 遍历2遍 O(n)
-![permutation](./resourses/53ab7a66023039ed4dce42b709b4997d2ba0089077912d39a0b31d3572a55d0b-trapping_rain_water.PNG)
+![permutation](../resourses/53ab7a66023039ed4dce42b709b4997d2ba0089077912d39a0b31d3572a55d0b-trapping_rain_water.PNG)
 ```
 if height:
     l = len(height)
