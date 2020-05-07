@@ -4,7 +4,7 @@
 # 解题思路
 
 ## plan 1
-
+A列为外循环 行为内循环
 ```
 class Solution:
     def transpose(self, A: List[List[int]]) -> List[List[int]]:
