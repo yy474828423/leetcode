@@ -35,7 +35,7 @@ Note:
 
 
 # 解题思路
-```
+```sql
 #共三种写法
 #最朴实的写法，共三层查询，先利用 DISTINCT 去掉重复记录得到表 A，再利用 GROUP BY 为 CLASS 分组，然
 #后用 COUNT() 统计每组个数得到表 B，最后在最外层限定数量 >=5 查到结果
@@ -60,4 +60,4 @@ SELECT CLASS
 	GROUP BY CLASS							#分组
 	HAVING COUNT(DISTINCT STUDENT) >= 5;          #利用 COUNT() 统计每门课 STUDENT 的个数，同时利
                                                                                         #用 DISTINCT 去掉重复学生
-                                                                                        ```
+```
